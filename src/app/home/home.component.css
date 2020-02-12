@@ -1,0 +1,12 @@
+ 
+    .b {
+        background-image: url('../../assets/img/architecture-1052706_1920.jpg');
+
+        background-repeat: no-repeat;
+ 
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height:800px;
+        position: relative;
+        top: -200px;
+      }
