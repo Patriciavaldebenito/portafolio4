@@ -2,4 +2,62 @@
 *{
     margin: 0;
     padding: 0;
+     font-size: 1em;
+    
+    
 }
+
+body{
+    background-image: url('./assets/particulas-de-equalizador-abstrata-onda-de-fundo/3038659.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner {
+    height: auto;
+    }
+
+ 
+
+
+@media (min-width: 2000px) { 
+    img{
+        height: 16vh;
+    }
+  }
+
+   @media screen and (min-width: 1200px) and (max-width: 1999px)  { 
+    img{
+        height: 15vh;
+    }
+    .carousel-control-prev-icon{
+        width: 15px;
+        height: 15px;
+    }
+    .carousel-indicator li{
+        width: 20px;
+        height: 2px;
+    }
+    h3{
+        font-size: 1rem;
+    }
+
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1199px)  { 
+    img{
+        height: 15vh;
+    }
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 799px)  { 
+    img{
+        height: 15vh;
+    }
+  }
+
+  @media screen and (max-width: 500px)  { 
+    img{
+        height: 15vh;
+    }
+  }
