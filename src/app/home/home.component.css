@@ -4,7 +4,12 @@ None (auto)	 540px	     720px	     960px	     1140px
 Class prefix	.col-	        .col-sm-	.col-md-	.col-lg-	.col-xl-
 col-sm- col-md- col.lg- col-xl-
 */
+main{
 
+  background-image: url('../../assets/particulas-de-equalizador-abstrata-onda-de-fundo/3038659.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 
 /*general *//*especifico */
   /*1*/
@@ -23,7 +28,8 @@ col-sm- col-md- col.lg- col-xl-
       justify-content: space-evenly;
       height: 100%;
     }
-    .btn-hover {      color: #fff;   cursor: pointer;  border: none;    moz-transition: all .4s ease-in-out;
+    .btn-hover {      
+      color: #fff;   cursor: pointer;  border: none;    moz-transition: all .4s ease-in-out;
       -o-transition: all .4s ease-in-out;
       -webkit-transition: all .4s ease-in-out;
       transition: all .4s ease-in-out;
@@ -74,13 +80,11 @@ col-sm- col-md- col.lg- col-xl-
       color: #fff;
     }
 
-
 /* nodos - particular*/
     h1,h2,p{
       color:#fff;
       font-weight: bold;
     }
-
 
     @media (min-width: 2000px) { 
       .presentation-section{
@@ -147,7 +151,6 @@ col-sm- col-md- col.lg- col-xl-
         height: 80vh;
       }
       .presentation-section div{
-        
         height: 90%;
       }
       .one-projects-section{
@@ -343,14 +346,14 @@ col-sm- col-md- col.lg- col-xl-
     }   
 
 
-/*responsive celular
-*/
-
-
-    @media screen and  (max-width: 575px)  { 
+@media screen and  (max-width: 575px)  { 
+      main{
+        background-image: url('../../assets/img/pngtreehand.jpg');
+      }
+      
       .presentation-section{
         padding: 1em;
-        height: auto;
+        height: 70vh;
         width: 100%;
         left: 0%;
       }
@@ -369,7 +372,7 @@ col-sm- col-md- col.lg- col-xl-
       /*logo contact section*/
       .section-contact-home{
         left: 25%;
-        top: 1.5em;
+        top: 5em;
         width: 50%;
         height: 3em;
         background-color: transparent;
@@ -408,10 +411,7 @@ col-sm- col-md- col.lg- col-xl-
                 margin-top: 1em;
               }
       
-    }
-
-
-
+}
 
 /*
   .main_gradient {
