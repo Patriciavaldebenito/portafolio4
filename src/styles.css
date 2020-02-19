@@ -8,6 +8,7 @@
 }
 
 body{
+    background-color: #18163e;
     background-image: url('./assets/particulas-de-equalizador-abstrata-onda-de-fundo/3038659.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -51,12 +52,16 @@ body{
   }
 
   @media screen and (min-width: 500px) and (max-width: 799px)  { 
+
     img{
         height: 15vh;
     }
   }
 
   @media screen and (max-width: 500px)  { 
+    body{
+        background-image: url('./assets/img/pngtreehand.jpg');
+    }
     img{
         height: 15vh;
     }
