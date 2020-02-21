@@ -1,1 +1,12 @@
-<p>projects works!</p>
+<!doctype html>
+<div style="color: blanchedalmond;">
+
+    <p >{{ projects | json }}</p>
+    <div *ngFor ="let project of projects">
+       
+
+        <img src="{{ project.srcImg }}" alt="" height="200px">
+    </div>
+
+</div>
+
