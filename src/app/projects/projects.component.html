@@ -1,12 +1,32 @@
 <!doctype html>
-<div style="color: blanchedalmond;">
+<div style="max-width:100%;color: #000;background-color: #f2f2f4;" class="container">
 
-    <p >{{ projects | json }}</p>
-    <div *ngFor ="let project of projects">
-       
+    <h3>Proyectos</h3>
 
-        <img src="{{ project.srcImg }}" alt="" height="200px">
+    <div style="display: inline-block;">
+        
+        <h6>Todos -- Angular -- Javascript -- maquetas/visual</h6>
     </div>
 
-</div>
+    <div class="row" *ngFor="let project of projects">
+   
+            <div class="col-5">
+                <img src="{{ project.srcImg }}" alt="imagen del proyecto" class="img-fluid" style="text-align: center;">
+            </div>
+            <div class="col-7" style="text-align: center;">
+                <ul style="list-style:none;">
+                    <li>{{ project.name }}</li>
+                    <li>{{ project.datePublicate }}</li>
+                    <li>{{ project.srcGithub }}</li>
+                    <li>{{ project.tecnology }}</li>
+                    <li>{{ project.style }}</li>
+                    <li>{{ project.framework }}</li>
+                </ul>
+            </div>
+     <br>
+    </div>
 
+
+
+
+</div>
