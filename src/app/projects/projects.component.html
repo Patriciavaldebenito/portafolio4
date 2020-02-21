@@ -1,32 +1,36 @@
 <!doctype html>
-<div style="max-width:100%;color: #000;background-color: #f2f2f4;" class="container">
+<section>
+    <div class="row">
+        <div class="col-12">
+            <h3>Proyectos</h3>
+        </div>
 
-    <h3>Proyectos</h3>
-
-    <div style="display: inline-block;">
-        
-        <h6>Todos -- Angular -- Javascript -- maquetas/visual</h6>
     </div>
 
-    <div class="row" *ngFor="let project of projects">
-   
-            <div class="col-5">
-                <img src="{{ project.srcImg }}" alt="imagen del proyecto" class="img-fluid" style="text-align: center;">
-            </div>
-            <div class="col-7" style="text-align: center;">
+    <div class="row">
+        <div class="col-12">
+            <h6 style="text-align: center;">Todos - Angular - Javascript - maquetas</h6>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" *ngFor="let project of projects">
+            <div class="project-container-general">
+
+                <img src="{{ project.srcImg }}" alt="imagen del proyecto" class="img-fluid representation-img-project">
+
                 <ul style="list-style:none;">
-                    <li>{{ project.name }}</li>
-                    <li>{{ project.datePublicate }}</li>
-                    <li>{{ project.srcGithub }}</li>
-                    <li>{{ project.tecnology }}</li>
-                    <li>{{ project.style }}</li>
-                    <li>{{ project.framework }}</li>
+                    <li class="name-project"><b>{{ project.name }}</b></li>
+
+                    <li>Github : {{ project.srcGithub }}</li>
+                    <li>Tecnologias :{{ project.tecnology }}</li>
+                    <li>Estilos: {{ project.style }}</li>
+                    <li>Framework: {{ project.framework }}</li>
                 </ul>
+
             </div>
-     <br>
+
+        </div>
     </div>
-
-
-
-
-</div>
+</section>

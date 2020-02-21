@@ -73,7 +73,7 @@ export class ProjectsService {
     }
     
 
-    this.projects = [proyect1,proyect2,proyect3,proyect4,proyect5,proyect6,proyect7]
+    this.projects = [proyect1,proyect2,proyect3,proyect4,proyect5,proyect6,proyect7];
    }
 
    getProjects(){

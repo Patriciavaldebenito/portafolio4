@@ -1,1 +1,39 @@
-<p>skill works!</p>
+<!doctype html>
+<!doctype html>
+<section>
+    <div class="row">
+        <div class="col-12">
+            <h3>skill</h3>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <h6 style="text-align: center;">Todos - Angular - Javascript - maquetas</h6>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" *ngFor="let skill of skills">
+            <div class="project-container-general">
+                <ol><li>{{ skill.name }}</li></ol>
+<!--
+                <img src="{{ project.srcImg }}" alt="imagen del proyecto" class="img-fluid representation-img-project">
+
+                <ul style="list-style:none;">
+                    <li class="name-project"><b>{{ project.name }}</b></li>
+
+                    <li>Github : {{ project.srcGithub }}</li>
+                    <li>Tecnologias :{{ project.tecnology }}</li>
+                    <li>Estilos: {{ project.style }}</li>
+                    <li>Framework: {{ project.framework }}</li>
+                </ul>
+-->
+            </div>
+
+        </div>  
+    </div>
+  
+</section>

@@ -34,7 +34,7 @@ main{
       -o-transition: all .4s ease-in-out;
       -webkit-transition: all .4s ease-in-out;
       transition: all .4s ease-in-out;
-      border-radius: 10px 50px 50px 10px;
+      border-radius: 30px;
     }
 
         .btn-hover:hover {
