@@ -6,61 +6,70 @@ import { Skill } from '../interface/skill';
 })
 export class SkillsService {
   skills:Skill[];
-
+  
   constructor() { 
+
+    let skill7:Skill={
+      name:'jquery',
+      srcImg:'../../assets/icons8-jquery-50.png',
+      booleanImg:true
+    }
+
     let skill1:Skill={
       name:'JavaScript',
-      parameterIcon:'X',
-      
+      parameterIcon:'fab fa-js fa-10x',
+      booleanIcon:true,
     }
     let skill2:Skill={
       name:'Angular',
-      parameterIcon:'X',
+      parameterIcon:'fab fa-angular fa-10x',
+      booleanIcon:true
       
     }
     let skill3:Skill={
       name:'CSS',
-      parameterIcon:'X',
-      
+      parameterIcon:'fab fa-css3-alt fa-10x',
+      booleanIcon:true
     }
     let skill4:Skill={
       name:'Bootstrap',
-      parameterIcon:'X',
-      
+      parameterIcon:'fab fa-bootstrap fa-10x',
+      booleanIcon:true
     }
     let skill5:Skill={
       name:'NodeJs',
-      parameterIcon:'X',
-      
+      parameterIcon:'fab fa-node fa-10x',
+      booleanIcon:true
     }
     let skill6:Skill={
-      name:'Materialize',
-      parameterIcon:'X',
-      
+      name:'Material',
+      parameterIcon:'fab fa-mdb fa-10x',
+      booleanIcon:true
     }
-    let skill7:Skill={
-      name:'jquery',
-      parameterIcon:'X',
-      
-    }
+
+
+
+    
     let skill8:Skill={
       name:'Github',
-      parameterIcon:'X',
-      
+      parameterIcon:'fab fa-github-square fa-10x',
+      booleanIcon:true 
     }
 
     let skill9:Skill={
       name:'Git',
-      parameterIcon:'X',
-      
+      parameterIcon:'fab fa-git-square fa-10x',
+      booleanIcon:true
     }
+    /*
     let skill10:Skill={
       name:'otro',
-      parameterIcon:'X',
+      parameterIcon:'fab fa-js fa-10x',
+      booleanIcon:true
       
-    }
+    }*/
 
-    this.skills = [skill1,skill2,skill3, skill4, skill5, skill6, skill7, skill8, skill9, skill10];
+    this.skills = [skill1,skill2,skill3, skill4, skill5, skill6, skill7,skill8,skill9];
     //console.log(this.skills);
   }
 

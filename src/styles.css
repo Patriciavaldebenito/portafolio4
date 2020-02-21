@@ -18,3 +18,5 @@ body{
 section{
     color: #140e25;background-color: #feffff;
 }
+
+ul{list-style:none;}
