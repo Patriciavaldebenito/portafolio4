@@ -1,1 +1,5 @@
-.skill-container-general{text-align: center;}
+.skill-container-general{
+    border-top: 1px solid #000;
+}
+
+svg:not(:root).svg-inline--fa{max-width: 60%;}

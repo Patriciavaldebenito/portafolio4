@@ -1,39 +1,39 @@
 <!doctype html>
 <!doctype html>
 <section>
-    <div class="row">
+    <div class="row pt-3">
         <div class="col-12">
-            <h3>skill</h3>
-        </div>
-
-    </div>
-
-    <div class="row">
-        <div class="col-12">
-            <h6 style="text-align: center;">Todos - Angular - Javascript - maquetas</h6>
+            <h3 class="text-center">skill</h3>
         </div>
     </div>
 
-    <div class="row" style="text-align: center;">
+    <div class="row pt-3">
+        <div class="col-12">
+            <h6 class="text-center">Todos - Angular - Javascript - maquetas</h6>
+        </div>
+    </div>
+
+    <div class="row text-center pt-4 skill-container-general">
         
-            <ng-container  *ngFor="let skill of skills" >
-                <div  class="col-6 col-sm-4 col-lg-4 col-xl-4"  *ngIf="skill.booleanIcon">
+            <div  class="col-6 col-sm-4 col-lg-4 col-xl-4" *ngFor="let skill of skills" >
+                <ng-container  *ngIf="skill.booleanIcon">
                     <ul><li>{{ skill.name }}</li></ul>
                     
-                    <i class=" {{ skill.parameterIcon}}" ></i>
-                </div>
-                <div  class="col-6 col-sm-4 col-lg-4 col-xl-4"  *ngIf="skill.booleanImg">
+                    <i class=" {{ skill.parameterIcon }}" ></i>
+                </ng-container>
+                
+                <ng-container    *ngIf="skill.booleanImg">
                     <ul><li>{{ skill.name }}</li></ul>
                     
                     <img src="{{skill.srcImg}}" width="50px">
-                </div>
-            </ng-container>
+                </ng-container>
+            </div>
      
 
        
 
-    </div
-    >
+        </div>
+    
       
     
 </section>
