@@ -1,12 +1,16 @@
-h3, p{
-    padding: 2rem 2rem 1rem 2rem;
-    color: #000;
-}
+h3, h4, p{ text-align: justify;}
 h3{
-    border-top: 1px solid red;
+    /*padding: 2rem 2rem 1rem 2rem;*/
+    color:#8f3d7b;
+}
+
+h4{
+    color:#c84d89;
 }
 p{
-    text-align: justify;
+    color: #7a356d;
+   
+   
 }
 
 
@@ -20,6 +24,11 @@ p{
     margin: 0 auto;
     width: 100%;
     text-align: center;
+    min-width: 100px;
+    min-height: 100px;
+
+    padding: 1em 0em;
+    
 }
 
 .img-developer{
@@ -31,15 +40,23 @@ p{
 }
 
 
+@media screen and (max-width:768px){
+    .container-img-about{
+        background: url(../../assets/img-license/a.png) no-repeat center center fixed; 
+  
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;}
+}
 
-
-@media screen and (min-width: 576px){
+@media  (min-width: 576px){
    .img-developer{
        width: 35%;
    }
 }
 
-@media screen and (min-width: 768px){
+@media   (min-width: 768px){
    .img-developer{
        width: 65%;
        margin-top: 0%;
@@ -51,12 +68,16 @@ p{
    .description-about{    
        padding: 3.5rem 5rem 0rem 0rem;
     }
-
-
+  
+    .container-img-about{
+        background: #f4f4f4; 
+        border-radius: 0px 30px 0px 30px;
+    }
+       
 }
 
 
-@media screen and (min-width: 992px){
+@media  (min-width: 992px){
  
     .container-left-about,.description-about{    
        zoom: 1.25;
