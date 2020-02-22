@@ -12,6 +12,7 @@ main{
   border-radius: 30px 30px 0px 0px;
 }
  
+
 /*general *//*especifico */
   /*1*/
     .presentation-section{
@@ -19,7 +20,7 @@ main{
       top: 0%;
       left: 40%;
       background: #191945a3;
-      border: 2.5px solid #6ff3fa;
+      border: 1.5px solid #6ff3fa;
      /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/ /*background-size: 400% 400%;*/  /* animation: gradient 20s ease infinite;*/
       border-radius: 1em;
     }
@@ -252,6 +253,8 @@ main{
 
     }
 
+
+  
     @media screen and (min-width: 768px) and (max-width: 991px)  { 
       .presentation-section{
         padding: 0.5em 3em;

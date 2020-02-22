@@ -22,7 +22,9 @@ ul.nav.ul-more-option{
     margin-right: 1em;
 }
 
-
+.container-logo-home{
+  display:none;
+}
 
 
 nav a.nav-link:hover{
@@ -53,6 +55,13 @@ nav a.nav-link:hover{
       font-size:1.5em;
   }
   }
+
+  @media (min-width:992px){
+    .container-logo-home{
+      display:block;
+    }
+  }
+
 
   @media screen and (min-width: 800px) and (max-width: 1199px)  { 
     nav{

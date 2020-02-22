@@ -10,9 +10,16 @@ p{
 }
 
 
+.container-left-about{
+ display: flex;
+ flex-direction: column;
+
+}
+
 .container-img-about{
-display: flex;
-flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
 .img-developer{
@@ -34,11 +41,11 @@ flex-direction: column;
 
 @media screen and (min-width: 768px){
    .img-developer{
-       width: 60%;
-       margin-top: 10%;
-       margin-left: 20%;
+       width: 65%;
+       margin-top: 0%;
+       margin-left: 0%;
    }
-   .container-img-about{
+   .container-left-about{
     padding: 0rem 0rem 0rem 5rem;
    }
    .description-about{    
@@ -51,7 +58,7 @@ flex-direction: column;
 
 @media screen and (min-width: 992px){
  
-    .container-img-about,.description-about{    
+    .container-left-about,.description-about{    
        zoom: 1.25;
      }
  
