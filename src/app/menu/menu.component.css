@@ -1,4 +1,4 @@
-header{height: 10%;}
+header{height: 10vh;}
 nav{
     position: relative; 
     left: 0%;
@@ -26,10 +26,10 @@ nav a.nav-link{
 
 
 nav a.nav-link:hover{
-    color: #17598a;
+    color: #8b3e7c;
    
-    font-size:1em;
-    border-bottom: 1px solid #fff;
+    font-size:1.25em;
+   /* border-bottom: 1px solid #fff;*/
 }
 
 
@@ -99,6 +99,11 @@ nav a.nav-link:hover{
      }
      .container-logo-home div a{
       color: #fff;
+      font-size: 1.25em;
+     }
+
+     .container-logo-home div a:hover{
+      color: #8b3e7c;
       font-size: 1.25em;
      }
   }

@@ -1,5 +1,6 @@
-main{height:90% ;}
-/* nodos - particular*/
+/*main{height:100%;}
+main div.row{height:100%}
+ nodos - particular*/
 h1,h2,p{
   color:#fff;
 }
@@ -9,28 +10,48 @@ div.dropdown-menu.show{
   left: -50px;
 }
   /*1*/
-    .presentation-section{
-      background: #191945a3;
+.container-general-home{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    justify-content: space-around;
+    margin: 0 2rem;
+
+}
+.presentation-section{
+
+
       border: 1.5px solid #8b3e7c;
      /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/ /*background-size: 400% 400%;*/  /* animation: gradient 20s ease infinite;*/
       border-radius: 1em;
       background: rgb(165,73,143);
       background: radial-gradient(circle, rgba(165,73,143,0.9150035014005602) 0%, rgba(20,14,37,1) 100%);
-    }
-/*
-    .button-home-project{
-      background-color: #fff;
-      font-weight: 600;
-      box-shadow: 3px 3px #6f3367;
-    }*/
-    
-     .section-contact-home{
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  
+}    
+.section-contact-home{
       border-radius: 10px;
       display: flex;
       flex-direction: row;
       height: 100%;
       justify-content: space-around;
-    }
+      background:#75366c;
+      color:#fff;
+}
+
+.svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
+      width: 100%;
+      color: #fff;
+     
+}
+.svg-inline--fa {
+      height: 1.5em;
+}
+
 
 
 @media (min-width:575px){
@@ -40,7 +61,19 @@ div.dropdown-menu.show{
       background-image: url('../../assets/img-license/particulas-de-equalizador-abstrata-onda-de-fundo/3038659.jpg');
     } 
 
+    .container-general-home{
+
+      display: flex;
+      flex-direction: row;
+      min-height: 90vh;
+      justify-content: space-around;
+      margin: 0 2rem;
+  
+    }
+
    .presentation-section{
+    width: 50%;
+    margin: 1rem 0rem 2rem;
      border:1.5px solid #6ff3fa;
      background: transparent;
    }
@@ -49,7 +82,7 @@ div.dropdown-menu.show{
      box-shadow: 3px 3px #6ff3fa;
     }
     .container-logo-contact{
-      height: 100%;
+      height: 600px;
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
@@ -66,13 +99,18 @@ div.dropdown-menu.show{
   
     }
     
-    .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
-      width: 100%;
-      color: #fff;
-     
-      }
-      .svg-inline--fa {
-      height: 1.5em;
-      }
+
    
 }   
+
+@media (min-width:767px){
+  .presentation-section{
+    width: 35%;
+    margin: 1rem 0rem 2rem 3rem;
+
+  }
+.container-general-home{
+  justify-content: space-between;
+  margin: 0rem 0rem 2rem 2rem;
+}
+}
