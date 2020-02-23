@@ -13,10 +13,22 @@
 
 body{
     background-color: #140f25;
+    height: 100%;
 }
 
 section{
-    color: #140e25;background-color: #feffff;
+   
+    background-color: #feffff;
 }
 
 ul{list-style:none;}
+
+h3, h4, p{ text-align: justify;}
+h3{
+    /*padding: 2rem 2rem 1rem 2rem;*/
+    color:#8f3d7b;
+}
+
+h4{
+    color:#c84d89;
+}

@@ -1,23 +1,12 @@
-h3, h4, p{ text-align: justify;}
-h3{
-    /*padding: 2rem 2rem 1rem 2rem;*/
-    color:#8f3d7b;
-}
 
-h4{
-    color:#c84d89;
-}
 p{
     color: #7a356d;
-   
-   
 }
 
 
 .container-left-about{
  display: flex;
  flex-direction: column;
-
 }
 
 .container-img-about{
@@ -26,9 +15,7 @@ p{
     text-align: center;
     min-width: 100px;
     min-height: 100px;
-
-    padding: 1em 0em;
-    
+    padding: 1em 0em; 
 }
 
 .img-developer{
@@ -76,7 +63,6 @@ p{
        
 }
 
-
 @media  (min-width: 992px){
  
     .container-left-about,.description-about{    
@@ -85,6 +71,11 @@ p{
  
  
  }
+
+
+
+
+
 /*
 .description-about{
 

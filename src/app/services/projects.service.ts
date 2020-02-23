@@ -10,24 +10,27 @@ export class ProjectsService {
 
     let proyect1:Project={
       name:'Burger Queen',
-      datePublicate:'datePublicate1',
-      srcGithub:'srcGithub1',
-      tecnology:'tecnology1',
-      style:'style1',
-      srcImg:'../../assets/download1.png',
-      framework:'framework1'
+      demo:'https://scl009-burger-queen.firebaseapp.com/',
+      datePublicate:'26-julio-2019',
+      srcGithub:'https://github.com/Patriciavaldebenito/SCL009-Burger-Queen/blob/develop/README.md',
+      tecnology:'TypeScript HTML  npm GitHub',
+      style:'CSS Bootstrap ',
+      srcImg:'../../assets/img/burger-queen.png',
+      framework:'Angular '
     }
     let proyect2:Project={
-      name:'Red Social -Javascript, service express nodejs',
-      datePublicate:'datePublicate2',
-      srcGithub:'srcGithub2',
-      tecnology:'tecnology2',
-      style:'style2',
-      srcImg:'../../assets/download2.jpeg',
-      framework:'framework2'
+      name:'md-Link',
+      demo:'https://www.npmjs.com/package/md-links-pvp',
+      datePublicate:'datePublicate5',
+      srcGithub:'https://github.com/Patriciavaldebenito/SCL009-md-links',
+      tecnology:'Javascript npm node.jsGitHub. última versión - 1.1.0',
+      srcImg:'../../assets/img/mdlink.png',
+      framework:'framework5'
+
     }
     let proyect3:Project={
       name:'Plazinger',
+      demo:'publicada en npm',
       datePublicate:'datePublicate3',
       srcGithub:'srcGithub3',
       tecnology:'tecnology3',
@@ -45,13 +48,13 @@ export class ProjectsService {
       framework:'framework4'
     }
     let proyect5:Project={
-      name:'md-Link',
-      datePublicate:'datePublicate5',
-      srcGithub:'srcGithub5',
-      tecnology:'tecnology5',
-      style:'style5',
+      name:'Red Social -Javascript, service express nodejs',
+      datePublicate:'datePublicate2',
+      srcGithub:'srcGithub2',
+      tecnology:'tecnology2',
+      style:'style2',
       srcImg:'../../assets/download2.jpeg',
-      framework:'framework5'
+      framework:'framework2'
     }
     let proyect6:Project={
       name:'maqueta - Google',

@@ -1,39 +1,52 @@
 <!doctype html>
-<!doctype html>
 <section>
-    <div class="row pt-3">
-        <div class="col-12">
-            <h3 class="text-center">skill</h3>
+    <div class="row py-4 px-5" style="background:#fff;">
+        <div class="col-12 py-1  px-0">
+            <h3>SKILL</h3>
         </div>
-    </div>
 
-    <div class="row pt-3">
         <div class="col-12">
-            <h6 class="text-center">Todos - Angular - Javascript - maquetas</h6>
+            <h4 class="px-4">
+            <i><em> FRONT END DEVELOPER</em></i>
+            </h4>
         </div>
-    </div>
 
-    <div class="row text-center pt-4 skill-container-general">
-        
-            <div  class="col-6 col-sm-4 col-lg-4 col-xl-4" *ngFor="let skill of skills" >
-                <ng-container  *ngIf="skill.booleanIcon">
-                    <ul><li>{{ skill.name }}</li></ul>
+
+             
+        <div  class="col-6 col-sm-4 col-lg-4 col-xl-4 pt-2  px-0" *ngFor="let skill of skills" >
+            <div class="skill-container-general">
+                <ng-container *ngIf="skill.booleanIcon">
+                    <h5>{{ skill.name }}</h5>
                     
                     <i class=" {{ skill.parameterIcon }}" ></i>
                 </ng-container>
                 
-                <ng-container    *ngIf="skill.booleanImg">
-                    <ul><li>{{ skill.name }}</li></ul>
+                <ng-container *ngIf="skill.booleanImg">
+                    <h5>{{ skill.name }}</h5>
+                    
                     
                     <img src="{{skill.srcImg}}" width="50px">
                 </ng-container>
             </div>
+ 
+        </div>
+
+
+    </div>
+</section>
+
+
+  
+ 
+  
+
+  
+   
      
 
        
 
-        </div>
+        
     
       
     
-</section>

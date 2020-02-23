@@ -1,11 +1,17 @@
-section{
-    color: #140e25;background-color: #feffff;
-}
 
-.project-container-general{margin: 16px;text-align: center;}
+.project-container-general{
+    margin: 16px;
+    text-align: center;
+}
 
 .representation-img-project{
-    margin-left: 1rem;text-align: center;border-radius: 30px;border:1px solid #6ff3fa;
+    max-width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    border:1px solid #6ff3fa;
 }
 
-.name-project{border-bottom: 1px solid #d7d1c9;margin-bottom: 1rem;}
+.name-project{
+    border-bottom: 1px solid #d7d1c9;
+    margin-bottom: 1rem;
+}

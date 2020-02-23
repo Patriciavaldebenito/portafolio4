@@ -1,423 +1,74 @@
-/*'../../assets/img/pngtreehand.jpg'*/
-main{
-  border-radius: 30px 30px 0px 0px;
-  background-image: url('../../assets/img/pngtreehand.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  border-radius: 30px 30px 0px 0px;
-  padding-bottom: 1rem;
+main{height:90% ;}
+/* nodos - particular*/
+h1,h2,p{
+  color:#fff;
 }
- 
+h1,h2{font-weight: bold;}
 
-/*general *//*especifico */
   /*1*/
     .presentation-section{
-      position: relative;
-      top: 0%;
-      left: 40%;
       background: #191945a3;
-      border: 1.5px solid #6ff3fa;
+      border: 1.5px solid #8b3e7c;
      /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/ /*background-size: 400% 400%;*/  /* animation: gradient 20s ease infinite;*/
       border-radius: 1em;
+      background: rgb(165,73,143);
+      background: radial-gradient(circle, rgba(165,73,143,0.9150035014005602) 0%, rgba(20,14,37,1) 100%);
     }
-    .presentation-section div {
+
+    .button-home-project{
+      background-color: #fff;
+      font-weight: 600;
+      box-shadow: 3px 3px #6f3367;
+    }
+     .section-contact-home{
+      border-radius: 10px;
       display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
+      flex-direction: row;
       height: 100%;
-    }
-    .btn-hover {      
-      color: #fff;   cursor: pointer;  border: none;    moz-transition: all .4s ease-in-out;
-      -o-transition: all .4s ease-in-out;
-      -webkit-transition: all .4s ease-in-out;
-      transition: all .4s ease-in-out;
-      border-radius: 30px;
-    }
-        .btn-hover:hover {
-            background-position: 100% 0;
-            text-align: center;
-            moz-transition: all .4s ease-in-out;
-            -o-transition: all .4s ease-in-out;
-            -webkit-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
-        }
-        .btn-hover:focus {
-            outline: none;
-        }
-        .btn-hover.color-9 {
-          background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
-          box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
-      }
-  /*2*/
-    .section-contact-home{
-      background-color: tomato;
-      position: relative;
-    }
-   .carousel-inner {
-    height: 150px;
-    }
-    .one-projects-section{
-      position: relative;    
-      background: transparent;
-      border-radius: 1em;
+      justify-content: space-around;
     }
 
-
-    /*3*/
-    .section-contact-home{
-      background-color:#1a1c4b6b;/*#1a1c4b6b;*/
-    }
-    .container-logo-contact{
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-    /*logo*/
-    .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
-      color: #fff;
-    }
-
-/* nodos - particular*/
-    h1,h2,p{
-      color:#fff;
-      font-weight: bold;
-    }
-
-    @media (min-width: 2000px) { 
-      .presentation-section{
-        padding: 3.33em 1.5em;
-        height: 85vh;
-        width: 60%;
-      }
-      .presentation-section div{
-     /* background-color: brown;*/
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      }
-
-      .one-projects-section{
-        top: 67.5vh;
-        height: 16vh;
-        width: 70%;
-      }
-
-     /*logo contact section*/
-      .section-contact-home{
-        left: 90%;
-        top: 10vh;
-        width: 10%;
-        height: 60vh;
-
-      }
-
-      .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
-      width: 50%;   margin: 10em 25% 0em 25%;
-     
-      }
-      .svg-inline--fa {
-        height: 3em;
-      }
-      /*font-size H1, H2, P*/
-      h1{
-        font-size:4rem;
-      }
-      h2{
-        font-size: 3.5rem;
-      }
-      p{
-        font-size: 3rem;
-      }
-      /* BOTON*/
-      .btn-hover {          
-        width: 90%;
-        font-size: 24px;
-        font-weight: 600;
-        margin: 0px;
-        height: 65px;
-        background-size: 300% 100%;
-      }
-    }
-
-     @media screen and (min-width: 1200px) and (max-width: 1999px)  { 
-      .presentation-section{
-        padding: 1.5em 1.25em;
-        width: 60%;
-        height: 80vh;
-      }
-      .presentation-section div{
-        height: 90%;
-      }
-      .one-projects-section{
-        top: 65vh;
-        height: 15vh;
-        width: 70%;
-      }
-
-     /*logo contact section*/
-      .section-contact-home{
-        left: 92%;
-        top: 10vh;
-        width: 8%;
-        height: 60vh;
-      }
-
-      .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
-        width: 50%;   margin: 125% 25% 0em 25%;
-      }
-      .svg-inline--fa {
-        height: 3em;
-      }
-
-              /*font-size H1, H2, P*/
-        h1{
-          font-size:2.5rem;
-        }
-        h2{
-          font-size: 1.75rem;
-        }
-        p{
-          font-size: 1.25rem;
-          margin-top: 1rem;
-         
-        }
-           /* BOTON*/
-        .btn-hover {          
-          width: 100%;
-          font-size: 14px;
-          font-weight: 600;
-          margin: 0px;
-          height: 60px;
-          background-size: 300% 100%;
-          margin-top: 0em;
-          padding:0.5em 0em;
-        }
-
-    }
-
-    @media screen and (min-width: 992px) and (max-width: 1199px)  { 
-      .presentation-section{
-        padding: 1.5em;
-        width: 60%;
-        height: 80vh;
-      }
-      .one-projects-section{
-        top: 65vh;
-        height: 15vh;
-        width: 70%;
-      }
-
-     /*logo contact section*/
-      .section-contact-home{
-        left: 92%;
-        top: 10vh;
-        width: 8%;
-        height: 60vh;
-      }
-
-      .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
-        width: 50%;   margin: 125% 25% 0em 25%;
-      }
-      .svg-inline--fa {
-        height: 3em;
-      }
-       /*font-size H1, H2, P*/
-       h1{
-        font-size:2rem;
-      }
-      h2{
-        font-size: 1.5rem;
-      }
-      p{
-        font-size: 1rem;
-      
-      }
-               
-       /* BOTON*/
-        .btn-hover {          
-          width: 100%;
-          font-size: 18px;
-          font-weight: 600;
-          margin: 0px;
-          height: 40px;
-          background-size: 300% 100%;
-          margin-top: 2em;
-        }
-
-    }
-
-
-  
-    @media screen and (min-width: 768px) and (max-width: 991px)  { 
-      .presentation-section{
-        padding: 0.5em 3em;
-        height: 80vh;
-        width: 85%;
-        left: 2.5%;
-      }
-      .one-projects-section{
-        top: 5vh;
-        height: 20vh;
-        width: 70%;
-        left: 15%;
-      }
-      /*logo contact section*/
-      .section-contact-home{
-            left: 70%;
-            top: 10vh;
-            width: 30%;
-            height: 50vh;
-      }
-      .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
-            width: 70%;
-            margin: 125% 15% 0em 15%;
-      }
-      .svg-inline--fa {
-            height: 3em;
-      }
-      /*font-size H1, H2, P*/
-      h1{
-        font-size:2.25rem;
-      }
-      h2{
-        font-size: 2rem;
-        width: 55%;
-      }
-      p{
-        font-size: 1.5rem;
-      }
-                     /* BOTON*/
-        .btn-hover {          
-          width: 70%;
-          font-size: 16px;
-          font-weight: 600;
-          margin: 0px;
-          height: 36px;
-          background-size: 300% 100%;
-          margin-top: 3em;
-        }
-    }
-
-
-    @media screen and (min-width: 576px) and (max-width: 767px)  { 
-      .presentation-section{
-        padding: 1em;
-        height: auto;
-        width: 80%;
-        left: 0%;
-      }
-      .one-projects-section{
-        top: 85%;
-        height: 15%;
-        width: 80%;
-      }
-      .container-logo-contact{
-        flex-direction: row;
-      }
-      /*logo contact section*/
-      .section-contact-home{
-        left: 5%;
-        top: 95%;
-        width: 100%;
-        height: 5vh;
-      }
-      .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
-        width: 20%;
-        margin: 0em 0.5em;
-    
-      }
-      .svg-inline--fa {
-        height: 1.5em;
-      }
-    }   
 
 @media (min-width:575px){
-  main{
-    background-image: url('../../assets/img-license/particulas-de-equalizador-abstrata-onda-de-fundo/3038659.jpg');
-  }  
-}
+    main{
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image: url('../../assets/img-license/particulas-de-equalizador-abstrata-onda-de-fundo/3038659.jpg');
+    } 
 
+   .presentation-section{
+     border:1.5px solid #6ff3fa;
+     background: transparent;
+   }
 
+   .button-home-project{ 
+     box-shadow: 3px 3px #6ff3fa;
+    }
+    .container-logo-contact{
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
 
-
-
-/*cambiar configuracion de responsive*/
-@media screen and  (max-width: 575px)  { 
-     
-      .presentation-section{
-        padding: 1em;
-        height: 70vh;
-        width: 100%;
-        left: 0%;
-      }
-      .one-projects-section{
-        top: 85%;
-        height: 15%;
-        width: 80%;
-      }
-      .container-logo-contact{
-       
-        flex-direction: row;
-        
-      }
-      /*logo contact section*/
-      .section-contact-home{
-        left: 25%;
-        top: 5em;
-        width: 50%;
-        height: 3em;
-        background-color: transparent;
-      }
-      .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
-        width: 20%;
-        margin: 0em 0.5em;
+    .section-contact-home{
+      width: 15%;
+      height: 60%;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #413b8e66;
+  
+    }
+    
+    .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
+      width: 100%;
+      color: #fff;
+      margin: 0em 0.5em;
       }
       .svg-inline--fa {
-        height: 1.5em;
+      height: 1.5em;
       }
-      /*font-size H1, H2, P*/
-            h1{
-              font-size:2rem;
-            }
-            h2{
-              font-size: 1.5rem;
-            }
-            p{
-              font-size: 1rem;
-            
-            }         
-             /* BOTON*/
-            .btn-hover {          
-                width: 90%;
-                font-size: 14px;
-                font-weight: 600;
-                margin: 0px;
-                height: 36px;
-                background-size: 300% 100%;
-                margin-top: 1em;
-            }
-}
-
-/*
-  .main_gradient {
-	background: #fff;
-  animation: gradient 20s ease infinite;
-  width: 100%;
-  height: 100vh;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-*/
-
+   
+}   
