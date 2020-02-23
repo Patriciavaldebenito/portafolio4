@@ -3,6 +3,16 @@ p{
     color: #7a356d;
 }
 
+.button-home-project{
+box-shadow: 0px 0px 6px 0px #6f3367;
+color: #6f3367;
+}
+
+.button-home-project:hover{
+    box-shadow: 0px 0px 6px 0px #fff;
+color: #fff;
+background-color: #6f3367;
+}
 
 .container-left-about{
  display: flex;

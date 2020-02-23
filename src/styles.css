@@ -23,7 +23,10 @@ section{
 
 ul{list-style:none;}
 
-h3, h4, p{ text-align: justify;}
+ p{ text-align: justify;}
+
+
+h4{text-align: center;}
 h3{
     /*padding: 2rem 2rem 1rem 2rem;*/
     color:#8f3d7b;
@@ -32,3 +35,9 @@ h3{
 h4{
     color:#c84d89;
 }
+
+.button-home-project{
+    background-color: #fff;
+    font-weight: 600;
+    box-shadow: 3px 3px #6f3367;
+  }

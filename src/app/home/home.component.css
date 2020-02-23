@@ -5,6 +5,9 @@ h1,h2,p{
 }
 h1,h2{font-weight: bold;}
 
+div.dropdown-menu.show{
+  left: -50px;
+}
   /*1*/
     .presentation-section{
       background: #191945a3;
@@ -14,12 +17,13 @@ h1,h2{font-weight: bold;}
       background: rgb(165,73,143);
       background: radial-gradient(circle, rgba(165,73,143,0.9150035014005602) 0%, rgba(20,14,37,1) 100%);
     }
-
+/*
     .button-home-project{
       background-color: #fff;
       font-weight: 600;
       box-shadow: 3px 3px #6f3367;
-    }
+    }*/
+    
      .section-contact-home{
       border-radius: 10px;
       display: flex;
@@ -65,7 +69,7 @@ h1,h2{font-weight: bold;}
     .svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
       width: 100%;
       color: #fff;
-      margin: 0em 0.5em;
+     
       }
       .svg-inline--fa {
       height: 1.5em;

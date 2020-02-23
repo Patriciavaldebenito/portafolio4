@@ -18,13 +18,11 @@ nav a.nav-link{
      justify-content: space-between;
 }
 
-ul.nav.ul-more-option{
-    margin-right: 1em;
-}
 
 .container-logo-home{
   display:none;
 }
+
 
 
 nav a.nav-link:hover{
@@ -56,11 +54,6 @@ nav a.nav-link:hover{
   }
   }
 
-  @media (min-width:992px){
-    .container-logo-home{
-      display:block;
-    }
-  }
 
 
   @media screen and (min-width: 800px) and (max-width: 1199px)  { 
@@ -91,4 +84,27 @@ nav a.nav-link:hover{
 
       font-size:1em;
   }
+  }
+
+
+  /*consideracion*/
+    @media (min-width:992px){
+    .container-logo-home{
+      display:block;
+    }
+    .container-logo-home div{
+      display: flex;
+      height: 100%;
+      align-items: center;
+     }
+     .container-logo-home div a{
+      color: #fff;
+      font-size: 1.25em;
+     }
+  }
+
+  @media(min-width:575px){
+    ul.nav.ul-more-option{
+      margin-right: 1em;
+    }
   }
