@@ -8,36 +8,35 @@
         <div class="col-12  py-1  px-0">
             <h4
              style="text-align: center;">
-             <em><i>Todos - Angular - Javascript - maquetas</i></em>
+             <em><i>Todos - Angular - <b>JavaScript</b> - maquetas</i></em>
                  </h4>
         </div>
       
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 py-3  px-0" *ngFor="let project of projects">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 py-3  px-0" *ngFor="let project of projects">
             <div class="project-container-general">
-    
+                <h5 class="name-project"><b>{{ project.name }}</b></h5>
                 <img src="{{ project.srcImg }}" alt="imagen del proyecto" class="img-fluid representation-img-project">
     
                 <ul style="list-style:none;">
-                    <li class="name-project"><b>{{ project.name }}</b></li>
+                   
     
                
-                    <li>
+                    <li class="mt-3">
                         <ul style="display: flex; justify-content: space-evenly;">
-                            <li style="display: inline-flex;"> <a href="{{ project.demo }}">Demo</a></li>
-                            <li style="display: inline-flex;"> <a href="{{ project.srcGithub }}">Github</a></li>
+                            <li class="btn btn-outline" style="display: inline-flex;"> <a href="{{ project.demo }}">Demo</a></li>
+                            <li class="btn btn-outline" style="display: inline-flex;"> <a href="{{ project.srcGithub }}">Github</a></li>
                         </ul>
                     </li>
-                    <li>Tecnologias :{{ project.tecnology }}</li>
-                    <li>Estilos: {{ project.style }}</li>
-                    <li>Framework: {{ project.framework }}</li>
+                    <li class="mt-3 li-description"><b>Tecnologias :</b><br>{{ project.tecnology }}</li>
+                    <li class="li-description"><b>Estilos :</b><br> {{ project.style }}</li>
+                    <li class="li-description"><b>Framework :</b><br> {{ project.framework }}</li>
                 </ul>
     
             </div>
     
         </div>
     
-    </div>
-    
+    </div> 
 </section>
 
 

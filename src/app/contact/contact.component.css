@@ -1,3 +1,8 @@
-.btn-download-cv.svg{
-   padding-right: 10px;
+.btn-download-cv.div{
+   display: flex;
+   flex-direction: row;
+}
+
+a{
+   color: #140f25;
 }
