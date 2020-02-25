@@ -6,6 +6,6 @@ export interface Project {
     srcGithub:any;
     tecnology:string;
     style?:string;
-    srcImg;
+    srcImg:string;
     framework?:string;
 }

@@ -1,0 +1,19 @@
+.link-contact{display: flex; flex-direction: column;}
+.svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-14 {
+  width: 100%;
+  color: #000;
+ 
+}
+.svg-inline--fa {
+  height: 1.5em;
+}
+
+@media (min-width:575px){
+
+    .link-contact{display: flex; flex-direction: row;
+    max-width: 60%;margin: 0 auto;}
+
+  
+  
+}
+

@@ -13,7 +13,7 @@ export class ProjectsService {
       demo:'https://scl009-burger-queen.firebaseapp.com/',
       datePublicate:'26-julio-2019',
       srcGithub:'https://github.com/Patriciavaldebenito/SCL009-Burger-Queen/blob/develop/README.md',
-      tecnology:'TypeScript HTML  npm GitHub',
+      tecnology:'TypeScript - HTML - npm - GitHub',
       style:'CSS Bootstrap ',
       srcImg:'../../assets/img/burger-queen.png',
       framework:'Angular '
@@ -23,9 +23,9 @@ export class ProjectsService {
       demo:'https://www.npmjs.com/package/md-links-pvp',
       datePublicate:'datePublicate5',
       srcGithub:'https://github.com/Patriciavaldebenito/SCL009-md-links',
-      tecnology:'Javascript npm node.jsGitHub. última versión - 1.1.0',
+      tecnology:'Javascript - npm - nodejs - GitHub última versión - 1.1.0',
       srcImg:'../../assets/img/mdlink.png',
-      framework:'framework5'
+   
 
     }
     let proyect3:Project={

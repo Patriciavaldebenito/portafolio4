@@ -18,6 +18,7 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SkillComponent } from './skill/skill.component';
 import { ContactComponent } from './contact/contact.component';
+import { RedsocialComponent } from './redsocial/redsocial.component';
 
 
 
@@ -33,6 +34,7 @@ import { ContactComponent } from './contact/contact.component';
     ProjectsComponent,
     SkillComponent,
     ContactComponent,
+    RedsocialComponent,
 
   ],
   imports: [
