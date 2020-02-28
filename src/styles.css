@@ -7,8 +7,8 @@
     padding: 0;
      font-size: 1em;
      font-family: 'Roboto Condensed', sans-serif;
-    
-    
+     max-zoom: 1.5;
+     min-zoom: 0.7;
 }
 
 body{
@@ -18,7 +18,6 @@ body{
 }
 
 section{
-   
     background-color: #feffff;
 }
 

@@ -2,3 +2,16 @@
     margin: 16px;text-align: center;
 }
 svg:not(:root).svg-inline--fa{max-width: 60%;}
+
+.img-skill{
+    width: 120px;
+    margin-top: 1rem;
+}
+
+@media(min-width:992px){
+    
+.img-skill{
+    width: 140px;
+    margin-top: 1rem;
+}
+}

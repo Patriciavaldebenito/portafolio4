@@ -7,7 +7,16 @@ import { Project } from '../interface/project';
 export class ProjectsService {
   projects:Project[];
   constructor() {
-
+    let proyect0:Project={
+      name:'Web Fundación - FENPOF',
+      demo:'https://fenpof2.firebaseapp.com',
+      datePublicate:'27-febrero-2020',
+      srcGithub:'https://github.com/Patriciavaldebenito/SCL009-Fenpof-Chile',
+      tecnology:'TypeScript - HTML - npm - GitHub',
+      style:'Material-Boostrap-design / CSS Bootstrap ',
+      srcImg:'../../assets/fenpof.png',
+      framework:'Angular'
+    }
     let proyect1:Project={
       name:'Burger Queen',
       demo:'https://scl009-burger-queen.firebaseapp.com/',
@@ -25,8 +34,6 @@ export class ProjectsService {
       srcGithub:'https://github.com/Patriciavaldebenito/SCL009-md-links',
       tecnology:'Javascript - npm - nodejs - GitHub última versión - 1.1.0',
       srcImg:'../../assets/img/mdlink.png',
-   
-
     }
     let proyect3:Project={
       name:'Plazinger',
@@ -76,7 +83,10 @@ export class ProjectsService {
     }
     
 
-    this.projects = [proyect1,proyect2,proyect3,proyect4,proyect5,proyect6,proyect7];
+    this.projects = [proyect0,proyect1,proyect2
+      //,
+      //proyect3,proyect4,proyect5,proyect6,proyect7
+    ];
    }
 
    getProjects(){
