@@ -61,15 +61,16 @@ export class SkillsService {
       parameterIcon:'fab fa-git-square fa-10x',
       booleanIcon:true
     }
-    /*
+    
     let skill10:Skill={
-      name:'otro',
+      name:'Firebase',
       parameterIcon:'fab fa-js fa-10x',
-      booleanIcon:true
+      srcImg:'../../assets/img/firebase.png',
+      booleanImg:true,
       
-    }*/
+    }
 
-    this.skills = [skill1,skill2,skill3, skill4, skill5, skill6, skill8,skill9,skill7];
+    this.skills = [skill1,skill2,skill3, skill4, skill5, skill6, skill8,skill9,skill10,skill7];
     //console.log(this.skills);
   }
 

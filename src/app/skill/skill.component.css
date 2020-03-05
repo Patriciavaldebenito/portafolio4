@@ -4,9 +4,33 @@
 svg:not(:root).svg-inline--fa{max-width: 60%;}
 
 .img-skill{
-    width: 120px;
+    width: 60px;
     margin-top: 1rem;
 }
+
+
+@media(min-width:361px){
+    .img-skill{
+        width: 72px;
+        margin-top: 1rem;
+    }
+}
+
+
+@media(min-width:576px){
+    .img-skill{
+        width: 90px;
+        margin-top: 1rem;
+    }
+}
+@media(min-width:768px){
+    .img-skill{
+        width: 112px;
+        margin-top: 1rem;
+    }
+}
+
+
 
 @media(min-width:992px){
     

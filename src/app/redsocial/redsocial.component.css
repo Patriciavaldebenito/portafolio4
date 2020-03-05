@@ -10,10 +10,10 @@
 
 @media (min-width:575px){
 
-    .link-contact{display: flex; flex-direction: row;
-    max-width: 60%;margin: 0 auto;}
-
-  
-  
+    .link-contact{
+      display: flex; 
+      flex-direction: row;
+    max-width: 60%;
+    margin: 0 auto;}
 }
 
